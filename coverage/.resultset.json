@@ -422,28 +422,32 @@
           null,
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
           1,
-          0,
+          1,
           null,
           null
         ]
       },
       "/csce431/Documents/csce431/Book-Collection/app/models/book.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -486,12 +490,12 @@
           null,
           1,
           1,
+          0,
+          0,
+          null,
           2,
           1,
           null,
-          0,
-          0,
-          null,
           null,
           null,
           null,
@@ -521,7 +525,7 @@
           1,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
@@ -538,6 +542,6 @@
         ]
       }
     },
-    "timestamp": 1643778080
+    "timestamp": 1643781738
   }
 }
