@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.3/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-02-03T00:09:24+00:00">2022-02-03T00:09:24+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-02-03T04:52:36+00:00">2022-02-03T04:52:36+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="yellow">
-  85.81%
+      <span class="green">
+  97.37%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.03
+         1.13
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>148</b> relevant lines,
-    <span class="green"><b>127</b> lines covered</span> and
-    <span class="red"><b>21</b> lines missed. </span>
-    (<span class="yellow">
-  85.81%
+    <b>152</b> relevant lines,
+    <span class="green"><b>148</b> lines covered</span> and
+    <span class="red"><b>4</b> lines missed. </span>
+    (<span class="green">
+  97.37%
 </span>
 )
   </div>
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#15256cf805a3916706b995788e1b6f24db0df7b6" class="src_link" title="app/controllers/books_controller.rb">app/controllers/books_controller.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">60.61 %</td>
-            <td class="cell--number">70</td>
-            <td class="cell--number">33</td>
-            <td class="cell--number">20</td>
-            <td class="cell--number">13</td>
-            <td class="cell--number">1.21</td>
+            <td class="green strong cell--number t-file__coverage">94.12 %</td>
+            <td class="cell--number">73</td>
+            <td class="cell--number">34</td>
+            <td class="cell--number">32</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">1.50</td>
             
           </tr>
         
@@ -293,9 +293,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#caf555102bd2bdd8f8fdadcf7346478bade10306" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">10</td>
             <td class="cell--number">5</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">3</td>
+            <td class="cell--number">5</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -303,12 +303,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#e0e7ed0592f47236b9fd6fc679797b6219a39853" class="src_link" title="spec/feature/integration_spec.rb">spec/feature/integration_spec.rb</a></td>
-            <td class="yellow strong cell--number t-file__coverage">82.86 %</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">49</td>
-            <td class="cell--number">35</td>
-            <td class="cell--number">29</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">0.83</td>
+            <td class="cell--number">36</td>
+            <td class="cell--number">36</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -408,8 +408,8 @@
   <div class="header">
     <h3>app/controllers/books_controller.rb</h3>
     <h4>
-      <span class="red">
-  60.61%
+      <span class="green">
+  94.12%
 </span>
 
       lines covered
@@ -418,9 +418,9 @@
     
 
     <div class="t-line-summary">
-      <b>33</b> relevant lines.
-      <span class="green"><b>20</b> lines covered</span> and
-      <span class="red"><b>13</b> lines missed.</span>
+      <b>34</b> relevant lines.
+      <span class="green"><b>32</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
 
     
@@ -448,7 +448,7 @@
 
             
 
-            <code class="ruby">  before_action :set_book, only: %i[ show edit update destroy ]</code>
+            <code class="ruby">  before_action :set_book, only: %i[ show edit update destroy confirm ]</code>
           </li>
         </div>
       
@@ -486,8 +486,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="6">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="5" data-linenumber="6">
+            <span class="hits">5</span>
             
 
             
@@ -585,8 +585,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="15">
-            <span class="hits">4</span>
+          <li class="covered" data-hits="2" data-linenumber="15">
+            <span class="hits">2</span>
             
 
             
@@ -684,8 +684,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="24">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="2" data-linenumber="24">
+            <span class="hits">2</span>
             
 
             
@@ -706,8 +706,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="26">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="2" data-linenumber="26">
+            <span class="hits">2</span>
             
 
             
@@ -717,8 +717,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="27">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="2" data-linenumber="27">
+            <span class="hits">2</span>
             
 
             
@@ -728,8 +728,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="28">
-            
+          <li class="covered" data-hits="2" data-linenumber="28">
+            <span class="hits">2</span>
             
 
             
@@ -739,8 +739,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="29">
-            
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
             
 
             
@@ -761,8 +761,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="6" data-linenumber="31">
-            <span class="hits">6</span>
+          <li class="covered" data-hits="2" data-linenumber="31">
+            <span class="hits">2</span>
             
 
             
@@ -772,8 +772,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="32">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="1" data-linenumber="32">
+            <span class="hits">1</span>
             
 
             
@@ -849,8 +849,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="39">
-            
+          <li class="covered" data-hits="1" data-linenumber="39">
+            <span class="hits">1</span>
             
 
             
@@ -860,8 +860,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="40">
-            
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
             
 
             
@@ -871,8 +871,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="41">
-            
+          <li class="covered" data-hits="2" data-linenumber="41">
+            <span class="hits">2</span>
             
 
             
@@ -882,8 +882,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="42">
-            
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
             
 
             
@@ -970,95 +970,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="50">
-            
-            
-
-            
-
-            <code class="ruby">  # DELETE /books/1 or /books/1.json</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="51">
+          <li class="covered" data-hits="1" data-linenumber="50">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  def destroy</code>
+            <code class="ruby">  def confirm</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="52">
-            
-            
-
-            
-
-            <code class="ruby">    @book.destroy</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="53">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="54">
-            
-            
-
-            
-
-            <code class="ruby">    respond_to do |format|</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="55">
-            
-            
-
-            
-
-            <code class="ruby">      format.html { redirect_to books_url, notice: &quot;Book was successfully destroyed.&quot; }</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="56">
-            
-            
-
-            
-
-            <code class="ruby">      format.json { head :no_content }</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="57">
-            
-            
-
-            
-
-            <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="58">
+          <li class="never" data-hits="" data-linenumber="51">
             
             
 
@@ -1069,7 +992,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="59">
+          <li class="never" data-hits="" data-linenumber="52">
             
             
 
@@ -1080,13 +1003,90 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="60">
+          <li class="never" data-hits="" data-linenumber="53">
+            
+            
+
+            
+
+            <code class="ruby">  # DELETE /books/1 or /books/1.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="54">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  private</code>
+            <code class="ruby">  def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="55">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @book.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="56">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="57">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    respond_to do |format|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="58">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      format.html { redirect_to books_url, notice: &quot;Book was successfully destroyed.&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="59">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      format.json { head :no_content }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="60">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -1097,45 +1097,12 @@
 
             
 
-            <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="62">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    def set_book</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="63">
-            
-            
-
-            
-
-            <code class="ruby">      @book = Book.find(params[:id])</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="64">
-            
-            
-
-            
-
-            <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="65">
+          <li class="never" data-hits="" data-linenumber="62">
             
             
 
@@ -1146,40 +1113,51 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="66">
-            
-            
-
-            
-
-            <code class="ruby">    # Only allow a list of trusted parameters through.</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="67">
+          <li class="covered" data-hits="1" data-linenumber="63">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    def book_params</code>
+            <code class="ruby">  private</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="68">
-            <span class="hits">3</span>
+          <li class="never" data-hits="" data-linenumber="64">
+            
             
 
             
 
-            <code class="ruby">      params.require(:book).permit(:title,:author,:price,:publishedDate)</code>
+            <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="69">
+          <li class="covered" data-hits="1" data-linenumber="65">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def set_book</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="66">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">      @book = Book.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="67">
             
             
 
@@ -1190,7 +1168,62 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="70">
+          <li class="never" data-hits="" data-linenumber="68">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="69">
+            
+            
+
+            
+
+            <code class="ruby">    # Only allow a list of trusted parameters through.</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="70">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def book_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="71">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">      params.require(:book).permit(:title,:author,:price,:publishedDate)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="72">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="73">
             
             
 
@@ -4219,8 +4252,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4249,7 +4282,7 @@
 
             
 
-            <code class="ruby">  resources :books</code>
+            <code class="ruby">  resources :books do</code>
           </li>
         </div>
       
@@ -4260,12 +4293,67 @@
 
             
 
+            <code class="ruby">    member do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      get :confirm</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">  root &#39;books#index&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -4276,7 +4364,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="10">
             
             
 
@@ -4295,8 +4383,8 @@
   <div class="header">
     <h3>spec/feature/integration_spec.rb</h3>
     <h4>
-      <span class="yellow">
-  82.86%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -4305,9 +4393,9 @@
     
 
     <div class="t-line-summary">
-      <b>35</b> relevant lines.
-      <span class="green"><b>29</b> lines covered</span> and
-      <span class="red"><b>6</b> lines missed.</span>
+      <b>36</b> relevant lines.
+      <span class="green"><b>36</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -4357,7 +4445,7 @@
 
             
 
-            <code class="ruby">RSpec.describe &#39;Creating a book&#39;, type: :feature do</code>
+            <code class="ruby">RSpec.describe &#39;Creating a book with valid attributes&#39;, type: :feature do</code>
           </li>
         </div>
       
@@ -4401,7 +4489,7 @@
 
             
 
-            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+            <code class="ruby">    fill_in &#39;Author&#39;, with: &#39;J.K. Rowling&#39;</code>
           </li>
         </div>
       
@@ -4412,7 +4500,7 @@
 
             
 
-            <code class="ruby">    visit books_path</code>
+            <code class="ruby">    fill_in &#39;Price&#39;, with: &#39;10&#39;</code>
           </li>
         </div>
       
@@ -4423,40 +4511,40 @@
 
             
 
+            <code class="ruby">    fill_in &#39;Publisheddate&#39;, with: &#39;09/03/1997&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit books_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="11">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="12">
-            
-            
-
-            
-
-            <code class="ruby">end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="13">
-            
-            
-
-            
-
-            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4467,29 +4555,29 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
             <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">RSpec.describe &#39;Creating a book with an author&#39;, type: :feature do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="16">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
           </li>
         </div>
       
@@ -4500,7 +4588,7 @@
 
             
 
-            <code class="ruby">    visit new_book_path</code>
+            <code class="ruby">RSpec.describe &#39;Creating a book with invalid attributes&#39;, type: :feature do</code>
           </li>
         </div>
       
@@ -4511,7 +4599,7 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter&#39;</code>
+            <code class="ruby">  scenario &#39;invalid inputs&#39; do</code>
           </li>
         </div>
       
@@ -4522,7 +4610,7 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Author&#39;, with: &#39;J.K. Rowling&#39;</code>
+            <code class="ruby">    visit new_book_path</code>
           </li>
         </div>
       
@@ -4533,7 +4621,7 @@
 
             
 
-            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter&#39;</code>
           </li>
         </div>
       
@@ -4544,7 +4632,7 @@
 
             
 
-            <code class="ruby">    visit books_path</code>
+            <code class="ruby">    fill_in &#39;Author&#39;, with: &#39;J.K. Rowling&#39;</code>
           </li>
         </div>
       
@@ -4555,23 +4643,56 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
+            <code class="ruby">    fill_in &#39;Price&#39;, with: &#39;10&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="23">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    expect(page).to have_content(&#39;J.K. Rowling&#39;)</code>
+            
+
+            <code class="ruby">    fill_in &#39;Publisheddate&#39;, with: &#39;Rowling&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="24">
+          <li class="covered" data-hits="1" data-linenumber="24">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit books_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).not_to have_content(&#39;harry potter&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
             
             
 
@@ -4582,7 +4703,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="25">
+          <li class="never" data-hits="" data-linenumber="28">
             
             
 
@@ -4593,46 +4714,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
+          <li class="never" data-hits="" data-linenumber="29">
             
             
 
             
 
             <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">RSpec.describe &#39;Creating a book with an price&#39;, type: :feature do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="28">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="29">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    visit new_book_path</code>
           </li>
         </div>
       
@@ -4643,7 +4731,7 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter&#39;</code>
+            <code class="ruby">RSpec.describe &#39;Able to update a book&#39;, type: :feature do</code>
           </li>
         </div>
       
@@ -4654,7 +4742,7 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Price&#39;, with: &#39;9.99&#39;</code>
+            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
           </li>
         </div>
       
@@ -4665,7 +4753,7 @@
 
             
 
-            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+            <code class="ruby">    jkbook = Book.create!(title: &#39;harry potter&#39;,author: &#39;J.K. Rowling&#39;,price: &#39;10&#39;,publishedDate: &#39;09/03/1997&#39;)</code>
           </li>
         </div>
       
@@ -4676,7 +4764,7 @@
 
             
 
-            <code class="ruby">    visit books_path</code>
+            <code class="ruby">    visit edit_book_path(id: jkbook.id)</code>
           </li>
         </div>
       
@@ -4687,40 +4775,40 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
+            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter 2&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="35">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    expect(page).to have_content(&#39;9.99&#39;)</code>
+            
+
+            <code class="ruby">    click_on &#39;Update Book&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="36">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="36">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    visit books_path</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="37">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">end</code>
+            
+
+            <code class="ruby">    expect(page).to have_content(&#39;harry potter 2&#39;)</code>
           </li>
         </div>
       
@@ -4731,29 +4819,29 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="40">
+            
+            
+
+            
+
             <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="39">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">RSpec.describe &#39;Creating a book with an published-date&#39;, type: :feature do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="40">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
           </li>
         </div>
       
@@ -4764,7 +4852,7 @@
 
             
 
-            <code class="ruby">    visit new_book_path</code>
+            <code class="ruby">RSpec.describe &#39;Able to delete a book&#39;, type: :feature do</code>
           </li>
         </div>
       
@@ -4775,7 +4863,7 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter&#39;</code>
+            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
           </li>
         </div>
       
@@ -4786,24 +4874,35 @@
 
             
 
-            <code class="ruby">    fill_in &#39;Published-Date&#39;, with: &#39;09-13-1997&#39;</code>
+            <code class="ruby">    jkbook = Book.create!(title: &#39;harry potter&#39;,author: &#39;J.K. Rowling&#39;,price: &#39;10&#39;,publishedDate: &#39;09/03/1997&#39;)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="44">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="44">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+            
+
+            <code class="ruby">    visit confirm_book_path(id: jkbook.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="45">
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
             
+
+            
+
+            <code class="ruby">    click_on &#39;Delete&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="46">
+            <span class="hits">1</span>
             
 
             
@@ -4813,24 +4912,13 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="46">
-            
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="47">
-            
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(&#39;09-13-1997&#39;)</code>
+            <code class="ruby">    expect(page).not_to have_content(&#39;harry potter&#39;)</code>
           </li>
         </div>
       
@@ -5684,7 +5772,7 @@
 
             
 
-            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;,author: &#39;J.K. Rowling&#39;,price: &#39;9.99&#39;,publishedDate: &#39;1997-09-13&#39;)</code>
+            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;,author: &#39;J.K. Rowling&#39;,price: &#39;10&#39;,publishedDate: &#39;09/03/1997&#39;)</code>
           </li>
         </div>
       
