@@ -13,8 +13,16 @@
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title %> <br>
+    <%= form.label :author %>
+    <%= form.text_field :author %> <br>
+    <%= form.label :price %>
+    <%= form.number_field :price %> <br>
+    <%= form.label :publishedDate %>
+    <%= form.date_field :publishedDate %>
   </div>
+
+  
 
   <div class="actions">
     <%= form.submit %>
