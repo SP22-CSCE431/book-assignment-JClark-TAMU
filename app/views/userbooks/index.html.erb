@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Userbooks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Book</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @userbooks.each do |userbook| %>
+      <tr>
+        <td><%= User.find_by(id: userbook.users_id).username %></td>
+        <td><%= Book.find_by(id: userbook.books_id).title %></td>
+        <td><%= link_to 'Show', userbook %></td>
+        <td><%= link_to 'Edit', edit_userbook_path(userbook) %></td>
+        <td><%= link_to 'Destroy', userbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Userbook', new_userbook_path %>
+<%= link_to 'Book Index', books_path %>
+<%= link_to 'User Index', users_path %>
